@@ -1467,3 +1467,40 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.18-01.40.53:363][368]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1421.936523
 [2026.05.18-01.40.54:366][371]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.05.18-01.40.54:367][371]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1422.606201, Update Interval: 331.125214
+[2026.05.18-01.44.59:263][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.05.18-01.44.59:341][106]LogStall: Shutdown...
+[2026.05.18-01.44.59:359][106]LogStall: Shutdown complete.
+[2026.05.18-01.44.59:419][106]LogSlate: Window 'SUMMER - Unreal Editor' being destroyed
+[2026.05.18-01.44.59:613][106]Cmd: QUIT_EDITOR
+[2026.05.18-01.44.59:613][106]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.05.18-01.44.59:624][107]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.05.18-01.44.59:625][107]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.05.18-01.44.59:625][107]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.05.18-01.44.59:630][107]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.05.18-01.44.59:632][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.18-01.44.59:632][107]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.05.18-01.44.59:652][107]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.05.18-01.44.59:659][107]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.05.18-01.44.59:678][107]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.05.18-01.44.59:678][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.18-01.44.59:681][107]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.05.18-01.44.59:681][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.18-01.44.59:686][107]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.05.18-01.44.59:691][107]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.05.18-01.44.59:698][107]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.05.18-01.44.59:698][107]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.05.18-01.44.59:698][107]LogAudio: Display: Audio Device unregistered from world 'Lvl_ThirdPerson'.
+[2026.05.18-01.44.59:699][107]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.05.18-01.44.59:703][107]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.05.18-01.44.59:716][107]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.05.18-01.44.59:748][107]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.05.18-01.44.59:748][107]LogAudio: Display: Audio Device Manager Shutdown
+[2026.05.18-01.44.59:797][107]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.05.18-01.44.59:799][107]LogExit: Preparing to exit.
+[2026.05.18-01.44.59:874][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2026.05.18-01.45.00:306][107]LogEditorDataStorage: Deinitializing
+[2026.05.18-01.45.00:570][107]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.05.18-01.45.00:672][107]LogExit: Editor shut down
+[2026.05.18-01.45.00:689][107]LogExit: Transaction tracking system shut down
+[2026.05.18-01.45.01:697][107]LogExit: Object subsystem successfully closed.
+[2026.05.18-01.45.01:855][107]LogShaderCompilers: Display: Shaders left to compile 0
